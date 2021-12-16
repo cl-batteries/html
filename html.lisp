@@ -17,8 +17,8 @@
 ;;;; under the License.
 ;;;;
 
-(defpackage :cl-batteries/html
-  (:use :cl :cl-batteries/markup)
+(defpackage :boost-html
+  (:use :cl :boost-markup)
   (:export
    #:html-render
    #:html-format
@@ -41,7 +41,7 @@
    ;; macros
    #:define-html-tag))
 
-(in-package :cl-batteries/html)
+(in-package :boost-html)
 
 ;;; ----------------------------------------------------
 
