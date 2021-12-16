@@ -156,8 +156,7 @@
       (write-string name stream)
 
       ;; write out all the attribute elements
-      (format stream "~:{ ~a~@[='~:/html:html-format/'~]~}" atts)
-
+      (format stream "~:{ ~a~@[='~:/boost-html:html-format/'~]~}" atts)
       ;; close the tag
       (write-char #\> stream)
 
